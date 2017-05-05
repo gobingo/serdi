@@ -1,0 +1,8 @@
+rootProject.name = 'serdi'
+
+include 'serdi-server'
+include 'serdi-client'
+
+project(':serdi-server').projectDir = new File(rootDir, 'serdi-server')
+project(':serdi-client').projectDir = new File(rootDir, 'serdi-client')
+
